@@ -1,0 +1,382 @@
+body{
+    background-color: #1F1F1F;
+    max-width: 1680px;
+    margin: 45px 80px 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAVBAR */
+#navbar {
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 11px;
+}
+.logo-main span {
+    margin-right: 5px;
+}
+.logo-main a {
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Baloo 2', cursive;
+}
+.nav-categories {
+    display: flex;
+    gap: 150px;
+}
+.nav-categories a {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: .7s color;
+}
+.nav-categories a:hover {
+    color: #F44D00;
+}
+#red {
+    color: #F44D00;
+    transition: .7s color;
+}
+#red:hover {
+    color: #FFFFFF;
+}
+.navbar-line {
+    height: 1px;
+    background-color: white;
+}
+/* END OF NAVBAR */
+
+@media screen and (max-width: 1023px){
+    .nav-categories{
+        gap: 50px;
+    }
+}
+
+
+
+
+
+.container{
+    width: 1086px;
+    height: 482px;
+    background: rgb(0, 0, 0);
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    margin-left: 8%;
+    margin-right: 10%;
+    
+    
+}
+@media screen and (max-width: 1023px){
+    .container{
+        gap: 50px;
+    }
+}
+
+.me{
+    margin-left: 550px;
+    height: 750px;
+    
+}
+@media  screen and (max-width: 1023px) {
+    .me{
+        gap: 50px;
+    }
+}
+
+
+.circle{
+    position: absolute;
+    top: 80px;
+    left: 85%;
+}
+
+.title-text{
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    margin-left: 50px;
+    font-size: 55px;
+    position: absolute;
+}
+.title-text2{
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    margin-left: 100px;
+    margin-top: 150px;
+    font-size: 55px;
+    position: absolute;
+}
+.vector{
+    position: absolute;
+    width: 200px;
+    height: 178px;
+    left: 90px;
+    top: 300px;
+}
+.about{
+    color: white;
+    position: absolute;
+    left: 150px;
+    margin-top: 400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 5%;
+}
+.picture-headings{
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    margin-left: 5%;
+    position: relative;
+    font-size: 24px;
+}
+.second-line{
+    color: rgb(255, 255, 255);
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+
+
+.about-me{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.friends{
+    border-radius: 50%;
+    width: 270px;
+    height: 250px;
+    margin-left: 10%;
+    margin-top: 5%;
+    border: 5px solid #F44D00;
+    
+    
+    
+}
+
+.friends2{
+    border-radius: 50%;
+    width: 270px;
+    height: 250px;
+    margin-left: 35%;
+    margin-top: 5%;
+    border: 5px solid #F44D00;
+    
+}
+.grandma{
+    border-radius: 50%;
+    width: 270px;
+    height: 250px;
+    margin-left: 40%;
+    border: 5px solid #F44D00;
+    
+    
+    
+}
+
+
+.design{
+    font-family: 'Baloo 2', cursive;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    margin-left: 5%;
+    position: relative;
+}
+.second-line{
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.designwork{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 5%;
+    padding-top: 5%;
+    
+    
+    
+}
+
+.work1{
+    width: 356px;
+    height: 502px;
+    
+    
+    
+}
+.work2{
+    width: 356px;
+    height: 502px;
+    padding-left: 35%;
+   
+    
+}
+.work3{
+    width: 356px;
+    height: 502px;
+    padding-top: 10%;
+  
+}
+.work4{
+    width: 356px;
+    height: 502px;
+    padding-left: 35%;
+    padding-top: 10%;
+}
+
+.website{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.mockup{
+    height: 496px;
+    width: 942px;
+    margin-left: 15%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.star1{
+    height: 154px;
+    width: 154px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25%;
+}
+.star2{
+    height: 154px;
+    width: 154px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.hobbies{
+    font-family: 'Baloo 2', cursive;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    margin-left: 5%;
+    position: relative;
+    
+}
+.third-line{
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+
+
+/* FOOTER */
+.footerline {
+    margin-top: 170px;
+    margin-bottom: 35px;
+}
+.footer {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footerLeft span {
+    color:#f44d00;
+}
+.footerLeft div {
+    display: flex;
+    gap: 20px;
+}
+.footerLeft img {
+    height: 20px;
+}
+.footerRight {
+    display: flex;
+    gap: 60px;
+}
+.footerRight h1 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+.footerRight p {
+    margin: 0;
+    line-height: 22px;
+}
+.footerRight .email{
+    color: #F44D00;
+}
+/* END OF FOOTER */
+
+
+/* RESPONSIVENESS */
+/* BIGGER SCREENS */
+@media screen and (min-width: 1800px){
+    body {
+        margin: 45px auto 100px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+  .container{
+    margin: 45px auto 0px;
+  }
+  .me{
+    margin: 45px auto 0px;
+  }
+}
+
+@media screen and (min-width: 1550px) {
+    .body{
+        margin: 45px auto 0px;
+    }
+}
+@media screen and (min-width: 1800px){
+   .designwork{
+    margin: 0 auto;
+   }
+}
+@media screen and (min-width: 1800px){
+.about-me{
+    margin: 0 auto;
+}
+}
+/* SMALLER SCREENS */
+@media screen and (max-width: 1200px){
+     /* FOOTER */
+     .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footerLeft div {
+        justify-content: center;
+    }
+    .footerRight {
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 425px){
+    #navbar {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    .me{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 700px){
+    /* NAVBAR */
+    .nav-categories {
+        gap: 20px;
+    }
+}
